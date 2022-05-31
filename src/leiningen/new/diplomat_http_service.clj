@@ -16,7 +16,7 @@
                   ["README.md" (render "README.md" data)]
                   ["project.clj" (render "project.clj" data)]
                   ["Dockerfile" (render "Dockerfile" data)]
-                  [".gitignore" (render ".gitignore" data)]
+                  [".gitignore" (render "gitignore" data)]
                   ["src/{{sanitized}}/server.clj" (render "server.clj" data)]
                   ["src/{{sanitized}}/controllers/foo.clj" (render "foo_controller.clj" data)]
                   ["src/{{sanitized}}/logic/foo.clj" (render "foo_logic.clj" data)]
