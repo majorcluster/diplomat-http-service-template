@@ -5,4 +5,4 @@ The port available at this template is http inbound, having foo route specified 
 
 ## Usage
 
-lein new org.clojars.majorcluster/diplomat-http-service <your project name>
+lein new org.clojars.majorcluster/diplomat-http-service my-project
