@@ -11,4 +11,5 @@
                         (i/json-out)
                         http/html-body])
 
-(def specs #{["/foo" :get (conj json-interceptors `r.foo/get-foo)]})
+(def specs #{["/foo" :get (conj json-interceptors `r.foo/get-foo) :route-name :get-foo]
+             ["/foo" :post (conj json-interceptors `r.foo/post-foo) :route-name :post-foo]})

@@ -1,0 +1,4 @@
+{
+ {{namespace}}.configs/env "dev"
+ ;{{namespace}}.configs/secret #config/env "MY_SECRET_ENV"
+ }
