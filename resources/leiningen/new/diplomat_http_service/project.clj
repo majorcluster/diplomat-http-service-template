@@ -21,7 +21,7 @@
                              :dependencies [[io.pedestal/pedestal.service-tools "0.5.10"]]
                              :jvm-opts ["-Dresource.config.edn=dev-config.edn"]}
                        :test {:dependencies [[io.pedestal/pedestal.service-tools "0.5.10"]
-                                             [nubank/matcher-combinators "1.2.1"]]
+                                             [nubank/matcher-combinators "3.8.4"]]
                               :jvm-opts ["-Dresource.config.edn=test-config.edn"]}
                        :uberjar {:aot [{{namespace}}.server]}}
             :main ^{:skip-aot true} {{namespace}}.server)
