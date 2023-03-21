@@ -9,10 +9,10 @@
                            [org.clojure/data.json "2.4.0"]
                            [com.outpace/config "0.13.5"]
 
-                           [ch.qos.logback/logback-classic "1.4.5" :exclusions [org.slf4j/slf4j-api]]
-                           [org.slf4j/jul-to-slf4j "2.0.6"]
-                           [org.slf4j/jcl-over-slf4j "2.0.6"]
-                           [org.slf4j/log4j-over-slf4j "2.0.6"]]
+                           [ch.qos.logback/logback-classic "1.4.6" :exclusions [org.slf4j/slf4j-api]]
+                           [org.slf4j/jul-to-slf4j "2.0.7"]
+                           [org.slf4j/jcl-over-slf4j "2.0.7"]
+                           [org.slf4j/log4j-over-slf4j "2.0.7"]]
             :min-lein-version "2.0.0"
             :aliases {"config" ["run" "-m" "outpace.config.generate"]}
             :resource-paths ["config", "resources"]
