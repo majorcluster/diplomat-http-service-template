@@ -13,6 +13,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+      - name: Run install
+        run: lein install
       - name: Generate sample
         run: lein new org.clojars.majorcluster/diplomat-http-service bakery
       - name: Install dependencies
