@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Generate sample
-        run: lein new org.clojars.majorcluster/lein-template.diplomat-http-service bakery
+        run: lein new org.clojars.majorcluster/diplomat-http-service bakery
       - name: Install dependencies
         run: lein deps
         working-directory: ./bakery
